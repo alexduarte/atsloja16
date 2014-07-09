@@ -1,0 +1,56 @@
+.fkcorreios_calculo_cep
+{
+}
+.fkcorreios_calculo_cep .order_carrier_content
+{
+	margin-top: 15px;
+}
+.fkcorreios_calculo_cep .button-medium
+{
+    padding: 10px;
+}
+.fkcorreios_calculo_cep INPUT[type="text"]
+{
+	height: 20px;
+	border: 1px solid #CCCCCC;
+	margin-right: 10px;
+}
+.fkcorreios_calculo_cep TABLE
+{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.fkcorreios_calculo_cep TR
+{
+	border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+	height: 60px;
+}
+#fkcorreios_cep_form
+{
+	padding: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#fkcorreios_cep_msg
+{
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 0 0 10px;
+    border-radius: 3px;
+    background-color: #F4F4F4;
+    font-size: 8pt;
+}
+#fkcorreios_cep_img
+{
+	text-align: center;
+}
+#fkcorreios_cep_nome
+{
+	width: 50%;
+}
+#fkcorreios_cep_valor
+{
+	text-align: right;
+	padding-right: 10px;
+}
