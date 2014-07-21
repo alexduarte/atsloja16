@@ -8,15 +8,20 @@ $ipServidorPasta = $_GET['ipServidorPasta' ];
 $url = "$ipServidorPasta/images/products/$id";
 //URL imagem
 $url_image = $_GET['url_image'];
+$url_absolute = __DIR__."/downloads/".$url_image;
 //Chave WS Prestashop
 $key = $_GET['key'];
+
+
 
 
 //Verificando se URL da Imagem é um caminho local.
 //se for local apenas adiciona a url
 if(!filter_var($url_image, FILTER_VALIDATE_URL))
   {
-    $image = array('image' => '@' . $url_image . ';type=image/jpeg');
+    
+$image = array('image' => '@'.$url_absolute);
+    print_r($image);
   }
 else // se a URL for web, baixa o arquivo para a pasta Downloads, depois pega o caminho da imagem local no servidor.
   {
@@ -68,22 +73,16 @@ curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_USERPWD, $key . ':');
 $result = curl_setopt($ch, CURLOPT_POSTFIELDS, $image);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//    if (($result = curl_exec ($ch)))throw new Exception('curl_exec gerou um erro.' ); 
 echo $result;
 curl_exec($ch);
 curl_close($ch);
 echo "<br>";
-
-    
 //Verificar se a imagem foi enviada de um link da web, para deletar ela da pasta temp
-if(filter_var($url_image, FILTER_VALIDATE_URL)){
     //Passando pasta e nome do arquivo para deletar
-    if(unlink("downloads/". basename($url_download))){
-        echo "Arquivo excluido com sucesso.";
-    }
-    else{
-       echo "Não foi possível excluir o arquivo.";
+   if(filter_var($url_image, FILTER_VALIDATE_URL)){
+    //Passando pasta e nome do arquivo para deletar
+      unlink("downloads/". basename($url_download));
+   }else{
+      unlink($url_absolute);
    }
-}
-
 ?>
