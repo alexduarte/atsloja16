@@ -25,7 +25,7 @@
 */
 
 /* Debug only */
-define('_PS_MODE_DEV_', false);
+define('_PS_MODE_DEV_',false);
 /* Compatibility warning */
 define('_PS_DISPLAY_COMPATIBILITY_WARNING_', false);
 if (_PS_MODE_DEV_)
@@ -36,7 +36,7 @@ if (_PS_MODE_DEV_)
 }
 else
 {
-	@ini_set('display_errors', 'off');
+	@ini_set('display_errors', 'on');
 	define('_PS_DEBUG_SQL_', false);
 }
 

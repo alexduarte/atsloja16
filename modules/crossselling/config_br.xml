@@ -2,7 +2,7 @@
 <module>
 	<name>crossselling</name>
 	<displayName><![CDATA[Venda cruzada]]></displayName>
-	<version><![CDATA[0.9]]></version>
+	<version><![CDATA[0.9.1]]></version>
 	<description><![CDATA[Adiciona uma se&ccedil;&atilde;o &amp;quot;Clientes que compraram este produto tamb&eacute;m compraram&amp;quot; na p&aacute;gina do produto.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
