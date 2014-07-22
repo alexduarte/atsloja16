@@ -2,5 +2,5 @@
 settings.inc.php
 #config
 #Arquivos de cache
-cache
-xandao
+cache/**/*
+tmp/**/*
