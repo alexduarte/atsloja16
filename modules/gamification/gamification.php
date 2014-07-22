@@ -38,7 +38,7 @@ class Gamification extends Module
 	{
 		$this->name = 'gamification';
 		$this->tab = 'administration';
-		$this->version = '1.9.3';
+		$this->version = '1.9.6';
 		$this->author = 'PrestaShop';
 
 		parent::__construct();
@@ -160,7 +160,23 @@ class Gamification extends Module
 			$css_str = $js_str = '';
 			foreach ($advices as $advice)
 			{
-				$css_str .= '<link href="'.Tools::getShopProtocol().'gamification.prestashop.com/css/advices/advice-'._PS_VERSION_.'_'.(int)$advice['id_ps_advice'].'.css" rel="stylesheet" type="text/css" media="all" />';
+				$is_css_file_cached = false;
+				$advice_css_path = dirname(__FILE__).'/views/css/advice-'._PS_VERSION_.'_'.(int)$advice['id_ps_advice'].'.css';
+				
+				// 24h cache
+				if (!$this->isFresh($advice_css_path, 86400))
+				{
+					$advice_css_content = Tools::file_get_contents(Tools::getShopProtocol().'gamification.prestashop.com/css/advices/advice-'._PS_VERSION_.'_'.(int)$advice['id_ps_advice'].'.css');
+					$is_css_file_cached = file_put_contents($advice_css_path, $advice_css_content);
+				}
+				else
+					$is_css_file_cached = true;
+
+				if (!$is_css_file_cached)
+					$css_str .= '<link href="'.Tools::getShopProtocol().'gamification.prestashop.com/css/advices/advice-'._PS_VERSION_.'_'.(int)$advice['id_ps_advice'].'.css" rel="stylesheet" type="text/css" media="all" />';
+				else
+					$this->context->controller->addCss($this->_path.'views/css/advice-'._PS_VERSION_.'_'.(int)$advice['id_ps_advice'].'.css');
+				
 				$js_str .= '"'.(int)$advice['id_ps_advice'].'",';
 			}
 
@@ -274,7 +290,8 @@ class Gamification extends Module
 		$iso_country = $this->context->country->iso_code;
 		$iso_currency = $this->context->currency->iso_code;
 		$file_name = 'data_'.strtoupper($iso_lang).'_'.strtoupper($iso_currency).'_'.strtoupper($iso_country).'.json';
-		$data = Tools::file_get_contents($this->url_data.$file_name);
+		$versioning = '?v='.$this->version;
+		$data = Tools::file_get_contents($this->url_data.$file_name.$versioning);
 		
 		return (bool)file_put_contents($this->cache_data.'data_'.strtoupper($iso_lang).'_'.strtoupper($iso_currency).'_'.strtoupper($iso_country).'.json', $data);
 	}
@@ -316,7 +333,7 @@ class Gamification extends Module
 				if (in_array($condition->id_ps_condition, $current_conditions))
 				{
 					$cond = new Condition(Condition::getIdByIdPs($condition->id_ps_condition));
-					unset($current_conditions[$condition->id_ps_condition]);
+					unset($current_conditions[(int)array_search($condition->id_ps_condition, $current_conditions)]);
 				}
 
 				$cond->hydrate((array)$condition, (int)$id_lang);
@@ -364,14 +381,14 @@ class Gamification extends Module
 			try 
 			{
 				//if badge already exist we update language data
-				if (in_array($badge->id_ps_badge, $current_badges))
+				if (in_array((int)$badge->id_ps_badge, $current_badges))
 				{
 					$bdg = new Badge(Badge::getIdByIdPs((int)$badge->id_ps_badge));
 					$bdg->name[$id_lang] = $formated_badges_lang[$badge->id_ps_badge]['name'][$id_lang];
 					$bdg->description[$id_lang] = $formated_badges_lang[$badge->id_ps_badge]['description'][$id_lang];
 					$bdg->group_name[$id_lang] = $formated_badges_lang[$badge->id_ps_badge]['group_name'][$id_lang];
 					$bdg->update();
-					unset($current_badges[$badge->id_ps_badge]);
+					unset($current_badges[(int)array_search($badge->id_ps_badge, $current_badges)]);
 				}
 				else
 				{
