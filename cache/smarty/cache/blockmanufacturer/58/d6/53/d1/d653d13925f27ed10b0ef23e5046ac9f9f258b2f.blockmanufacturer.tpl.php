@@ -5,11 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd653d13925f27ed10b0ef23e5046ac9f9f258b2f' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blockmanufacturer\\blockmanufacturer.tpl',
-      1 => 1405963728,
+      1 => 1406027817,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '2011853cd7572529ea0-76865910',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce4873efe2d3_23410750',
   'variables' => 
   array (
     'display_link_manufacturer' => 0,
@@ -21,11 +24,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'form_list' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd75726956f5_59880267',
-  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd75726956f5_59880267')) {function content_53cd75726956f5_59880267($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53ce4873efe2d3_23410750')) {function content_53ce4873efe2d3_23410750($_smarty_tpl) {?>
 <!-- Block manufacturers module -->
 <div id="manufacturers_block_left" class="block blockmanufacturer">
 	<p class="title_block">

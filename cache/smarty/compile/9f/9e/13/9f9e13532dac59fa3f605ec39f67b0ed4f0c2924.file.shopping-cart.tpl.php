@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-21 16:19:19
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:18:11
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\shopping-cart.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:356153cd75c7aab523-49183861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9f9e13532dac59fa3f605ec39f67b0ed4f0c2924' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\shopping-cart.tpl',
-      1 => 1405963729,
+      1 => 1406027818,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53cd75c891afe5_80280596',
   'variables' => 
   array (
     'empty' => 0,
@@ -99,8 +101,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'currencyBlank' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd75c891afe5_80280596',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53cd75c891afe5_80280596')) {function content_53cd75c891afe5_80280596($_smarty_tpl) {?>
 

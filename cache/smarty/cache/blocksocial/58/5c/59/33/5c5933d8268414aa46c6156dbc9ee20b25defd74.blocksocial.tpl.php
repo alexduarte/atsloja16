@@ -5,11 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5c5933d8268414aa46c6156dbc9ee20b25defd74' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blocksocial\\blocksocial.tpl',
-      1 => 1405963728,
+      1 => 1406027817,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '2893753cd752e83fea7-71880132',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce4871473215_09528257',
   'variables' => 
   array (
     'facebook_url' => 0,
@@ -20,11 +23,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'pinterest_url' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd752e91fee3_24106646',
-  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd752e91fee3_24106646')) {function content_53cd752e91fee3_24106646($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53ce4871473215_09528257')) {function content_53ce4871473215_09528257($_smarty_tpl) {?>
 <section id="social_block">
 	<ul>
 					<li class="facebook">

@@ -5,11 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cf3f5cef5e17eb6aa49553ee9c91995695e2d4e8' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blockbestsellers\\blockbestsellers.tpl',
-      1 => 1405963728,
+      1 => 1406027817,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '111253cd7571cd5a40-86576158',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce48736f1dd1_07221826',
   'variables' => 
   array (
     'link' => 0,
@@ -18,11 +21,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'PS_CATALOG_MODE' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd7571e9bef7_02855462',
-  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd7571e9bef7_02855462')) {function content_53cd7571e9bef7_02855462($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53ce48736f1dd1_07221826')) {function content_53ce48736f1dd1_07221826($_smarty_tpl) {?>
 <!-- MODULE Block best sellers -->
 <div id="best-sellers_block_right" class="block products_block">
 	<h4 class="title_block">

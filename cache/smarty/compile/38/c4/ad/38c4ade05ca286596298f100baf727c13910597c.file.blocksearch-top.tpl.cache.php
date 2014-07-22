@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-21 16:16:45
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:18:08
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\modules\blocksearch\blocksearch-top.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2411953cd752d42ef94-56271367%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '38c4ade05ca286596298f100baf727c13910597c' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blocksearch\\blocksearch-top.tpl',
-      1 => 1405963728,
+      1 => 1406027817,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53cd752d4b26d3_24790480',
   'variables' => 
   array (
     'link' => 0,
     'search_query' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd752d4b26d3_24790480',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53cd752d4b26d3_24790480')) {function content_53cd752d4b26d3_24790480($_smarty_tpl) {?>
 <!-- Block search module TOP -->

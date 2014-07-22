@@ -5,11 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9ce708ced54e61ce445ba460f0739d56cb036a9d' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blockcms\\blockcms.tpl',
-      1 => 1405963728,
+      1 => 1406027817,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '1209253cd752edf94b0-01765658',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce4871d5be35_40320944',
   'variables' => 
   array (
     'block' => 0,
@@ -32,11 +35,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'display_poweredby' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd752f1bfee0_96087427',
-  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd752f1bfee0_96087427')) {function content_53cd752f1bfee0_96087427($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53ce4871d5be35_40320944')) {function content_53ce4871d5be35_40320944($_smarty_tpl) {?>
 	<!-- MODULE Block footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Informação</h4>
