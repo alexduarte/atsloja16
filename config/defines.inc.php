@@ -36,7 +36,7 @@ if (_PS_MODE_DEV_)
 }
 else
 {
-	@ini_set('display_errors', 'off');
+	@ini_set('display_errors', 'on');
 	define('_PS_DEBUG_SQL_', false);
 }
 

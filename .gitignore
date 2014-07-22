@@ -1,6 +1,7 @@
 #Arquivo de configura??o
-#settings.inc.php
+#Arquivos de cache
+settings.inc.php
 #config
 #Arquivos de cache
-cache
-xandao
+cache/**/*
+tmp/**/*
