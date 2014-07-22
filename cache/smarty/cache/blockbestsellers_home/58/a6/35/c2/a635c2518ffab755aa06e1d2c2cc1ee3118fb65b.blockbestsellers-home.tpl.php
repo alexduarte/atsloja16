@@ -5,28 +5,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a635c2518ffab755aa06e1d2c2cc1ee3118fb65b' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blockbestsellers\\blockbestsellers-home.tpl',
-      1 => 1405963728,
+      1 => 1406028836,
       2 => 'file',
     ),
     '2ab89c92b0d11d1ba13ab97adfc94504a0fad160' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\product-list.tpl',
-      1 => 1405963729,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '3210853cd756ab57028-98428254',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce4d0674cf88_59006714',
   'variables' => 
   array (
     'best_sellers' => 0,
     'active_ul' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd756ac19d25_42923809',
-  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd756ac19d25_42923809')) {function content_53cd756ac19d25_42923809($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53ce4d0674cf88_59006714')) {function content_53ce4d0674cf88_59006714($_smarty_tpl) {?>
 	
 									
 		
@@ -73,7 +73,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<meta itemprop="priceCurrency" content="0" />
 																		</div>
 										<div class="button-container">
-																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=5&amp;token=a78ad346e67563135e855f374b3ab19c" rel="nofollow" title="Adicionar" data-id-product="5">
+																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=5&amp;token=fa96f0a3b152f1882a889095d5f1a23a" rel="nofollow" title="Adicionar" data-id-product="5">
 										<span>Adicionar</span>
 									</a>
 														
@@ -127,7 +127,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<meta itemprop="priceCurrency" content="0" />
 																		</div>
 										<div class="button-container">
-																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=6&amp;token=a78ad346e67563135e855f374b3ab19c" rel="nofollow" title="Adicionar" data-id-product="6">
+																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=6&amp;token=fa96f0a3b152f1882a889095d5f1a23a" rel="nofollow" title="Adicionar" data-id-product="6">
 										<span>Adicionar</span>
 									</a>
 														

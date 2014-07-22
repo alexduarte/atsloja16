@@ -5,28 +5,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'be0c1d9d6a979e0d9e9512b6ca0a3bb3d1e4d105' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\homefeatured\\homefeatured.tpl',
-      1 => 1405963728,
+      1 => 1406028836,
       2 => 'file',
     ),
     '2ab89c92b0d11d1ba13ab97adfc94504a0fad160' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\product-list.tpl',
-      1 => 1405963729,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '524153cd7569df0f97-94169196',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce4d06624fd8_39817132',
   'variables' => 
   array (
     'products' => 0,
     'active_ul' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd756ab34c75_40663774',
-  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd756ab34c75_40663774')) {function content_53cd756ab34c75_40663774($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53ce4d06624fd8_39817132')) {function content_53ce4d06624fd8_39817132($_smarty_tpl) {?>
 		
 									
 		
@@ -73,7 +73,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<meta itemprop="priceCurrency" content="0" />
 																		</div>
 										<div class="button-container">
-																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=4&amp;token=a78ad346e67563135e855f374b3ab19c" rel="nofollow" title="Adicionar" data-id-product="4">
+																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=4&amp;token=fa96f0a3b152f1882a889095d5f1a23a" rel="nofollow" title="Adicionar" data-id-product="4">
 										<span>Adicionar</span>
 									</a>
 														
@@ -130,7 +130,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<meta itemprop="priceCurrency" content="0" />
 																		</div>
 										<div class="button-container">
-																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=5&amp;token=a78ad346e67563135e855f374b3ab19c" rel="nofollow" title="Adicionar" data-id-product="5">
+																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=5&amp;token=fa96f0a3b152f1882a889095d5f1a23a" rel="nofollow" title="Adicionar" data-id-product="5">
 										<span>Adicionar</span>
 									</a>
 														
@@ -187,7 +187,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<meta itemprop="priceCurrency" content="0" />
 																		</div>
 										<div class="button-container">
-																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=11&amp;token=a78ad346e67563135e855f374b3ab19c" rel="nofollow" title="Adicionar" data-id-product="11">
+																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=11&amp;token=fa96f0a3b152f1882a889095d5f1a23a" rel="nofollow" title="Adicionar" data-id-product="11">
 										<span>Adicionar</span>
 									</a>
 														
@@ -241,7 +241,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<meta itemprop="priceCurrency" content="0" />
 																		</div>
 										<div class="button-container">
-																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=14&amp;token=a78ad346e67563135e855f374b3ab19c" rel="nofollow" title="Adicionar" data-id-product="14">
+																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost/atsloja16/cart?add=1&amp;id_product=14&amp;token=fa96f0a3b152f1882a889095d5f1a23a" rel="nofollow" title="Adicionar" data-id-product="14">
 										<span>Adicionar</span>
 									</a>
 														

@@ -5,11 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5e2fac622b887364d6e9f0a11329ee3aaa09a38d' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\homeslider\\homeslider.tpl',
-      1 => 1405963728,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '953153cd756b285c54-54238666',
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce4d07ed0311_24557143',
   'variables' => 
   array (
     'page_name' => 0,
@@ -18,11 +21,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'link' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd756b4770d4_29357584',
-  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd756b4770d4_29357584')) {function content_53cd756b4770d4_29357584($_smarty_tpl) {?>    <!-- Module HomeSlider -->
+<?php if ($_valid && !is_callable('content_53ce4d07ed0311_24557143')) {function content_53ce4d07ed0311_24557143($_smarty_tpl) {?>    <!-- Module HomeSlider -->
             <div id="homepage-slider">
 			            <ul id="homeslider" style="max-height:260px;">
                                                             <li class="homeslider-container">

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:18:09
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:37:42
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\modules\blocknewsletter\blocknewsletter.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:52853cd752e6916b0-74865361%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '891798599bcefd88832bfd86b62e8302fa8dcd94' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blocknewsletter\\blocknewsletter.tpl',
-      1 => 1406027817,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),

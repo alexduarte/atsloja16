@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:18:09
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:37:42
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\modules\blocksocial\blocksocial.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2893753cd752e83fea7-71880132%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5c5933d8268414aa46c6156dbc9ee20b25defd74' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blocksocial\\blocksocial.tpl',
-      1 => 1406027817,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),

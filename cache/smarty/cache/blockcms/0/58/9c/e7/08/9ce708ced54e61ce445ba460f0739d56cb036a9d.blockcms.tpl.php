@@ -5,17 +5,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9ce708ced54e61ce445ba460f0739d56cb036a9d' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blockcms\\blockcms.tpl',
-      1 => 1406027817,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '1209253cd752edf94b0-01765658',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53ce4873c30cc1_56051224',
+  'unifunc' => 'content_53ce4d1dde2982_68402101',
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53ce4873c30cc1_56051224')) {function content_53ce4873c30cc1_56051224($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53ce4d1dde2982_68402101')) {function content_53ce4d1dde2982_68402101($_smarty_tpl) {?>
 	<!-- Block CMS module -->
 			<section id="informations_block_left_1" class="block informations_block_left">
 			<p class="title_block">

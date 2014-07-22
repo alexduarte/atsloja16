@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:18:11
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:37:59
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\shopping-cart.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:356153cd75c7aab523-49183861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9f9e13532dac59fa3f605ec39f67b0ed4f0c2924' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\shopping-cart.tpl',
-      1 => 1406027818,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),

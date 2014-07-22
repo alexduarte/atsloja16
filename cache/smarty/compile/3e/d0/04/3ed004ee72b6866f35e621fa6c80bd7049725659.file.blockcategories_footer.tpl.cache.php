@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:18:09
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:37:42
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\modules\blockcategories\blockcategories_footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:385453cd752eb8a650-23893861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3ed004ee72b6866f35e621fa6c80bd7049725659' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blockcategories\\blockcategories_footer.tpl',
-      1 => 1406027817,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),

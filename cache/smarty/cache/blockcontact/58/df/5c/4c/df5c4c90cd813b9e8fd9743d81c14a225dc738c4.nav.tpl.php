@@ -5,14 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'df5c4c90cd813b9e8fd9743d81c14a225dc738c4' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blockcontact\\nav.tpl',
-      1 => 1406027817,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '2733153cd7530acdbf3-77297481',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53ce4874c0a8b7_42362799',
+  'unifunc' => 'content_53ce4d0797f3d2_08063503',
   'variables' => 
   array (
     'link' => 0,
@@ -20,7 +20,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53ce4874c0a8b7_42362799')) {function content_53ce4874c0a8b7_42362799($_smarty_tpl) {?><div id="contact-link">
+<?php if ($_valid && !is_callable('content_53ce4d0797f3d2_08063503')) {function content_53ce4d0797f3d2_08063503($_smarty_tpl) {?><div id="contact-link">
 	<a href="http://localhost/atsloja16/contact-us" title="Fale Conosco">Fale conosco</a>
 </div>
 	<span class="shop-phone">

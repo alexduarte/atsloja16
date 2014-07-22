@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:18:09
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:37:41
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\modules\blockwishlist\blockwishlist_top.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1043453cd752e1fd377-86541510%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3af69c486106802bbe0818d9923c403ba43e9634' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blockwishlist\\blockwishlist_top.tpl',
-      1 => 1406027817,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),

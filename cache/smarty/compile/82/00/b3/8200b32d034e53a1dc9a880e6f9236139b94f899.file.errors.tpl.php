@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:18:12
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:38:00
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\errors.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2915853cd75303d9620-95348603%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8200b32d034e53a1dc9a880e6f9236139b94f899' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\errors.tpl',
-      1 => 1406027815,
+      1 => 1406028835,
       2 => 'file',
     ),
   ),

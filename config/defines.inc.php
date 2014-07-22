@@ -30,7 +30,7 @@ define('_PS_MODE_DEV_',false);
 define('_PS_DISPLAY_COMPATIBILITY_WARNING_', false);
 if (_PS_MODE_DEV_)
 { 
-	@ini_set('display_errors', 'on');
+	@ini_set('display_errors', 'off');
 	@error_reporting(E_ALL | E_STRICT);
 	define('_PS_DEBUG_SQL_', true);
 }

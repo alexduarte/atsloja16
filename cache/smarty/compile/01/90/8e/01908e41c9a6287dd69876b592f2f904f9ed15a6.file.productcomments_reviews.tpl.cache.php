@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-21 16:17:46
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:37:42
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\modules\productcomments\productcomments_reviews.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1795153cd756a944be4-86683870%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '01908e41c9a6287dd69876b592f2f904f9ed15a6' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\productcomments\\productcomments_reviews.tpl',
-      1 => 1405963728,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53cd756aa07983_64399559',
   'variables' => 
   array (
     'nbComments' => 0,
     'averageTotal' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd756aa07983_64399559',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53cd756aa07983_64399559')) {function content_53cd756aa07983_64399559($_smarty_tpl) {?> 
 <?php if (isset($_smarty_tpl->tpl_vars['nbComments']->value)&&$_smarty_tpl->tpl_vars['nbComments']->value>0){?>

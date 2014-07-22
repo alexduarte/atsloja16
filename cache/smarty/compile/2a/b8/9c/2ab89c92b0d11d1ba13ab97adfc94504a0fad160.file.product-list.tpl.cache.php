@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-21 16:17:45
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:37:41
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\product-list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1785453cd7569e90bd4-47861605%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2ab89c92b0d11d1ba13ab97adfc94504a0fad160' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\product-list.tpl',
-      1 => 1405963729,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53cd756a60fb59_11773552',
   'variables' => 
   array (
     'products' => 0,
@@ -43,8 +45,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'compared_products' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd756a60fb59_11773552',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53cd756a60fb59_11773552')) {function content_53cd756a60fb59_11773552($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'C:\\wamp\\www\\atsloja16\\tools\\smarty\\plugins\\function.math.php';
 ?>

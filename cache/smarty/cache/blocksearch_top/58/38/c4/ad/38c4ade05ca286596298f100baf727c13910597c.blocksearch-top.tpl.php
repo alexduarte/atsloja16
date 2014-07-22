@@ -5,14 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '38c4ade05ca286596298f100baf727c13910597c' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\themes\\default-bootstrap\\modules\\blocksearch\\blocksearch-top.tpl',
-      1 => 1406027817,
+      1 => 1406028836,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '2411953cd752d42ef94-56271367',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53ce487059dc75_98547125',
+  'unifunc' => 'content_53ce4d047ed298_85140116',
   'variables' => 
   array (
     'link' => 0,
@@ -20,7 +20,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53ce487059dc75_98547125')) {function content_53ce487059dc75_98547125($_smarty_tpl) {?><!-- Block search module TOP -->
+<?php if ($_valid && !is_callable('content_53ce4d047ed298_85140116')) {function content_53ce4d047ed298_85140116($_smarty_tpl) {?><!-- Block search module TOP -->
 <div id="search_block_top" class="col-sm-4 clearfix">
 	<form id="searchbox" method="get" action="http://localhost/atsloja16/search" >
 		<input type="hidden" name="controller" value="search" />
