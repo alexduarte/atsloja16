@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:2733153cd7530acdbf3-77297481%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:350953ce99c7790d42-71331279%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,18 +9,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2733153cd7530acdbf3-77297481',
-  'cache_lifetime' => 31536000,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53ce4d0797f3d2_08063503',
+  'nocache_hash' => '350953ce99c7790d42-71331279',
   'variables' => 
   array (
     'link' => 0,
     'telnumber' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce99c77eb642_72349841',
+  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53ce4d0797f3d2_08063503')) {function content_53ce4d0797f3d2_08063503($_smarty_tpl) {?><div id="contact-link">
+<?php if ($_valid && !is_callable('content_53ce99c77eb642_72349841')) {function content_53ce99c77eb642_72349841($_smarty_tpl) {?><div id="contact-link">
 	<a href="http://localhost/atsloja16/contact-us" title="Fale Conosco">Fale conosco</a>
 </div>
 	<span class="shop-phone">

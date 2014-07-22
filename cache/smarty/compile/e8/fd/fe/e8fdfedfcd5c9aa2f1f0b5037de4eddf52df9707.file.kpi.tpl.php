@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-21 16:12:10
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 14:52:53
          compiled from "C:\wamp\www\atsloja16\admin6383\themes\default\template\helpers\kpi\kpi.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3055453cd741a10fc87-82997322%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1311653ceb305d24e07-64722831%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e8fdfedfcd5c9aa2f1f0b5037de4eddf52df9707' => 
     array (
       0 => 'C:\\wamp\\www\\atsloja16\\admin6383\\themes\\default\\template\\helpers\\kpi\\kpi.tpl',
-      1 => 1405963698,
+      1 => 1406028793,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3055453cd741a10fc87-82997322',
+  'nocache_hash' => '1311653ceb305d24e07-64722831',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd741a24cd96_64701407',
+  'unifunc' => 'content_53ceb305e55199_26593713',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd741a24cd96_64701407')) {function content_53cd741a24cd96_64701407($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\wamp\\www\\atsloja16\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_53ceb305e55199_26593713')) {function content_53ceb305e55199_26593713($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\wamp\\www\\atsloja16\\tools\\smarty\\plugins\\modifier.replace.php';
 ?>
 <<?php if (isset($_smarty_tpl->tpl_vars['href']->value)&&$_smarty_tpl->tpl_vars['href']->value){?>a style="display:block" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['href']->value, ENT_QUOTES, 'UTF-8', true);?>
 "<?php }else{ ?>div<?php }?> id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['id']->value, ENT_QUOTES, 'UTF-8', true);?>

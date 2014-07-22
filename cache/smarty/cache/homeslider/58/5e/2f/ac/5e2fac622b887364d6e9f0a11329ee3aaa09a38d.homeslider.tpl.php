@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:953153cd756b285c54-54238666%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1133853ce99c7c25f32-42306550%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,10 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '953153cd756b285c54-54238666',
-  'cache_lifetime' => 31536000,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53ce4d07ed0311_24557143',
+  'nocache_hash' => '1133853ce99c7c25f32-42306550',
   'variables' => 
   array (
     'page_name' => 0,
@@ -21,8 +18,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'link' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce99c7ddcf56_83324174',
+  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53ce4d07ed0311_24557143')) {function content_53ce4d07ed0311_24557143($_smarty_tpl) {?>    <!-- Module HomeSlider -->
+<?php if ($_valid && !is_callable('content_53ce99c7ddcf56_83324174')) {function content_53ce99c7ddcf56_83324174($_smarty_tpl) {?>    <!-- Module HomeSlider -->
             <div id="homepage-slider">
 			            <ul id="homeslider" style="max-height:260px;">
                                                             <li class="homeslider-container">
