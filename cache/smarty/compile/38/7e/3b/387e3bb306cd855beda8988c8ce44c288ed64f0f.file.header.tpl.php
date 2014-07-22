@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 07:37:43
+<?php /* Smarty version Smarty-3.1.14, created on 2014-07-22 13:05:11
          compiled from "C:\wamp\www\atsloja16\themes\default-bootstrap\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1070853cd75305b9d00-38565987%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1081453ce99c7162a43-72765577%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1070853cd75305b9d00-38565987',
+  'nocache_hash' => '1081453ce99c7162a43-72765577',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53cd75307c9885_20691344',
   'variables' => 
   array (
     'lang_iso' => 0,
@@ -49,8 +47,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'right_column_size' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce99c73941b1_07524896',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53cd75307c9885_20691344')) {function content_53cd75307c9885_20691344($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'C:\\wamp\\www\\atsloja16\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_53ce99c73941b1_07524896')) {function content_53ce99c73941b1_07524896($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'C:\\wamp\\www\\atsloja16\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>

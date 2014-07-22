@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:531753cd752f1df2e1-54400335%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2891453ce99c60a0f52-67301936%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,10 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '531753cd752f1df2e1-54400335',
-  'cache_lifetime' => 31536000,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_53ce4d06e79c34_26567344',
+  'nocache_hash' => '2891453ce99c60a0f52-67301936',
   'variables' => 
   array (
     'link' => 0,
@@ -22,8 +19,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'is_logged' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_53ce99c6215f59_55896188',
+  'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53ce4d06e79c34_26567344')) {function content_53ce4d06e79c34_26567344($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53ce99c6215f59_55896188')) {function content_53ce99c6215f59_55896188($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://localhost/atsloja16/my-account" title="Gerenciar minha conta de usuário" rel="nofollow">Minha Conta</a></h4>

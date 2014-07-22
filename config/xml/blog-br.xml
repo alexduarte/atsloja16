@@ -535,6 +535,7 @@ To give you a head start, here’s a list of the major price comparison engines:
 		</item>
 	</channel>
 </rss>
+<<<<<<< HEAD
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
@@ -542,4 +543,13 @@ Minified using disk: basic
 Page Caching using disk: enhanced
 Object Caching 829/984 objects using disk: basic
 
+=======
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk: basic
+Page Caching using disk: enhanced
+Object Caching 829/984 objects using disk: basic
+
+>>>>>>> a816edf58bd67a1e0b70283af614ee5d9ecbc861
 Served from: www.prestashop.com @ 2014-07-22 11:56:02 -->
