@@ -100,9 +100,9 @@
 			</div>
 			-->
 		</div>
-		<!-- Div geral de dados do prestashop
+		<!-- Div geral de dados do prestashop-->
 		<div class="col-md-12 col-lg-2">
-		-->			
+					
 			<!-- Retirando dicas do dia
 			<section class="dash_news panel">
 				<h3><i class="icon-rss"></i> PrestaShop News</h3>
@@ -140,8 +140,10 @@
 					</dl>
 			</section>
 			-->
-            <!-- Retirando modo demontstração
-			<section class="dash_simulation panel">
+            <!-- Retirando modo demontstração-->
+			
+
+<section class="dash_simulation panel">
 				<h3><i class="icon-link"></i> {l s="Demo Mode"}</h3>
 				<span class="switch prestashop-switch">
 					<input id="PS_DASHBOARD_SIMULATION_on" class="ps_dashboard_simulation" type="radio" {if $PS_DASHBOARD_SIMULATION == 1}checked="checked"{/if} value="1" name="PS_DASHBOARD_SIMULATION">
@@ -156,10 +158,9 @@
 				</span>
 				{l s='This mode generates fake data so you can try your Dashboard without real numbers.'}
 			</section>        
-            -->
-        <!--    
+                       
 		</div>
-		-->
+
 		
 	</div>
 </div>

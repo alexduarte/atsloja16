@@ -183,7 +183,7 @@ $('.id_state option[value={if isset($smarty.post.id_state)}{$smarty.post.id_stat
 			{if $field_name eq 'city'}
 				<div class="required form-group">
 					<label for="city">{l s='City'} <sup>*</sup></label>
-					<input class="is_required validate form-control" data-validate="{$address_validation.$field_name.validate}" type="text" name="city" id="city" value="{if isset($smarty.post.city)}{$smarty.post.city}{else}{if isset($address->city)}{$address->city|escape:'html':'UTF-8'}{/if}{/if}" maxlength="64"  readonly="true"   />
+					<input class="is_required validate form-control" data-validate="{$address_validation.$field_name.validate}" type="text" name="city" id="city" value="{if isset($smarty.post.city)}{$smarty.post.city}{else}{if isset($address->city)}{$address->city|escape:'html':'UTF-8'}{/if}{/if}" maxlength="64"    />
 				</div>
 				{* if customer hasn't update his layout address, country has to be verified but it's deprecated *}
 			{/if}

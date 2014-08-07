@@ -22,11 +22,5 @@ $_LANGMAIL['Your new password'] = 'Sua nova senha';
 $_LANGMAIL['Password query confirmation'] = 'Esqueceu a senha';
 $_LANGMAIL['An answer to your message is available #ct%1$s #tc%2$s'] = 'Uma resposta à sua mensagem está disponível #ct%1$s #tc%2$s';
 $_LANGMAIL['New voucher regarding your order %s'] = 'Novo cupom para você %s';
-$_LANGMAIL['Newsletter confirmation'] = 'Confirmação de inscrição da Newsletter';
-$_LANGMAIL['Email verification'] = 'Verificação de e-mail';
-$_LANGMAIL['Newsletter voucher'] = 'Newsletter - cupom de desconto';
-$_LANGMAIL['Your wishlist\\\'s link'] = '';
-$_LANGMAIL['Message from %1$s %2$s'] = 'Mensagem de %1$s %2$s';
-$_LANGMAIL['%1$s sent you a link to %2$s'] = '%1$s lhe enviou um link: %2$s';
 
 ?>
