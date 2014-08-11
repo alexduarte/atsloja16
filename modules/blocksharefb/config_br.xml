@@ -2,7 +2,7 @@
 <module>
 	<name>blocksharefb</name>
 	<displayName><![CDATA[Bloco para compartilhar no Facebook]]></displayName>
-	<version><![CDATA[1.2]]></version>
+	<version><![CDATA[1.2.1]]></version>
 	<description><![CDATA[Permite aos clientes compartilhar seus produtos no Facebook.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

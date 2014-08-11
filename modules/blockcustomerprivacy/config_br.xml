@@ -2,7 +2,7 @@
 <module>
 	<name>blockcustomerprivacy</name>
 	<displayName><![CDATA[Bloco de privacidade de dados do cliente]]></displayName>
-	<version><![CDATA[1.1]]></version>
+	<version><![CDATA[1.1.1]]></version>
 	<description><![CDATA[Adiciona um bloco para mostrar uma mensagem sobre a privacidade de dados do cliente.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
